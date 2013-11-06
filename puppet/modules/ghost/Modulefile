@@ -1,0 +1,7 @@
+name 'devpaul-ghost'
+version '0.0.1'
+description 'ghost module deployment'
+project_page 'http://devpaul.com'
+license 'MIT'
+author 'Paul Shannon'
+dependency 'puppetlabs/wget'
