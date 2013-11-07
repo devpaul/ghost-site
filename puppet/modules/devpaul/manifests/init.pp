@@ -10,4 +10,7 @@ class devpaul {
   class { 'ghost':
     require => Class['nodejs'],
   }
+  class { 'proxying':
+    require => Class['requirements'],
+  }
 }
