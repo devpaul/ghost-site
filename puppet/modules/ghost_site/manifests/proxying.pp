@@ -1,4 +1,4 @@
-class devpaul::proxying {
+class ghost_site::proxying {
   class { 'nginx': }
   nginx::resource::upstream { 'puppet_rack_app':
     ensure  => present,

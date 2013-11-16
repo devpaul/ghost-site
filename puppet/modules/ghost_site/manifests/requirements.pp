@@ -1,4 +1,4 @@
-class devpaul::requirements {
+class ghost_site::requirements {
   exec { "apt-update":
     command => "/usr/bin/apt-get update"
   }
@@ -9,6 +9,8 @@ class devpaul::requirements {
             , build-essential
             , libssl-dev
             , unzip
+            , vim
+            , sendmail
             ]:
           }
 }

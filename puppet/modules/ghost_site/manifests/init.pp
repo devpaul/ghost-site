@@ -1,4 +1,4 @@
-class devpaul {
+class ghost_site {
   class { 'requirements': }
   class { '::nodejs':
     version => 'stable',

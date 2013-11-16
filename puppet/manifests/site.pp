@@ -1,1 +1,1 @@
-class{ devpaul: }
+class{ ghost_site: }
